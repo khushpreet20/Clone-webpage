@@ -1,0 +1,330 @@
+*{
+    margin: 0px;
+    /* border: border-box; */
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.navbar{
+    background-color: rgb(84 137 255);
+    height: 56px    ;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: sticky;
+}
+.nav-space{
+    width: 124px;
+    height: 56px;
+    margin-right:10px;
+}
+.nav-logo{
+    width: 137px;
+    height: 56px;
+    padding-left: 45px;
+
+}
+.nav-logo:hover{
+    cursor: pointer;        
+}
+.logo{
+    height: 56px;
+    width: 77px;
+    /* padding-left: ; */
+    /* margin-left: 10px; */
+    /* width: max-content; */
+    /* align-items: center*/
+}
+.logo-image{
+    background-image: url("logo.png");
+    background-size: cover;
+    height: 20.11px;
+    width: 75px;
+    margin-top:8px ;
+}
+.logo-link a{
+    text-decoration: none;
+    font-style: italic;
+    color: white;
+    font-size: 11px;
+}
+.logo-link :hover{
+    text-decoration: underline;
+}
+.logo-link a span{
+    color: yellow;
+    font-weight: bold;
+}
+.nav-search{
+    display: flex;
+    align-items: center;
+    width:600px;
+    height: 36px;
+}
+.search-input{
+    width: 100%;
+    height: 36px;
+    border: none;
+}
+/* .search-input::selection{
+    border:none;
+}  to be seen later on*/
+.search-icon{
+    width:42px;
+    height: 36px;
+    background-color: white;
+    border:none;
+}
+.search-icon:hover{
+    cursor: pointer;
+}
+.search-icon i{
+    color: rgb(84 137 255);
+    /* height: 20px;
+    width: 20px; */
+    font-size: 18px;
+}
+.nav-login{
+    width: 150px;
+}
+.login{
+    width: 60px;
+    padding-left: 20px;
+}
+.login button{
+    width: 120px;
+    height: 30px;
+    background-color: white;
+    border:none;
+    color:  rgb(84 137 255);
+    font-weight: bold;
+    font-size: 100%;
+}
+.seller{
+    padding-left: 30px;
+}
+.seller p{
+    font-weight: bold;
+}
+.more{
+    padding-left: 30px;
+}
+.more p{
+    font-weight: bold;
+}
+.more:hover{
+    cursor: pointer;
+}
+.nav-cart{
+    width: 120px ;
+    margin: 60px;
+}
+.nav-cart span{
+    font-weight: bold;
+}
+/* nav-panel */
+.nav-panel{
+    border-bottom: solid gray 1.5px;
+    width:100% ;
+    height: 110px ;
+    display: flex ;
+    position: relative;
+    /* margin-top: 54px; */
+    justify-content: center;
+    /* margin-left: 2%;
+    margin-right: 2%; */
+}
+.box{
+    width: 95px ;
+    height: 85% ;
+    /* border:1.5px solid black ; */
+    color: black;
+    margin: 10px;
+    font-size: 0.85rem;
+    font-weight: 550;
+    /* display: flex; */
+    /* align-items: center; */
+
+    /* border-top: none */
+}
+/* .Top-offers{
+    align-items: center;
+} */
+.box:hover{
+    cursor: pointer;
+    color: blue ;
+}
+.images1{
+    margin-left:14px;
+    width:64px ;
+    height: 64px ;
+    background-image: url('t.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.images2{
+    margin-left:14px;
+    width:64px ;
+    height: 64px ;
+    background-image: url('mob.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}.images3{
+    margin-left:14px;
+    width:64px ;
+    height: 64px ;
+    background-image: url('elect.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}.images4{
+    margin-left:14px;
+    width:64px ;
+    height: 64px ;
+    background-image: url('tv.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.images5{
+    margin-left:14px;
+    width:64px ;
+    height: 64px ;
+    background-image: url('topoffers.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}.images6{
+    margin-left:14px;
+    width:64px ;
+    height: 64px ;
+    background-image: url('beauty.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}.images7{
+    margin-left:14px;
+    width:64px ;
+    height: 64px ;
+    background-image: url('home.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.images8{
+    margin-left:14px;
+    width:64px ;
+    height: 64px ;
+    background-image: url('Funiture.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}.images9{
+    margin-left:14px;
+    width:64px ;
+    height: 64px ;
+    background-image: url('flights.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}.images10{
+    margin-left:14px;
+    width:64px ;
+    height: 64px ;
+    background-image: url('grocery.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    background-color: #b8b5b53d;
+    width: 100%;
+    height: 877px;
+    position: relative;
+    margin-top: 6px;
+}
+.hero-section{
+    background-image: url('hero_image.png');
+    background-size: cover;
+    width: 100%;
+    height: 280px;
+    margin: 0px -1053px 0px 0px; 
+    background-repeat: no-repeat;
+    position: relative;
+}
+.hero-section:hover{
+    cursor: pointer;
+}
+
+.shop-section:hover{
+    cursor: pointer;
+}
+.section-1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.shop-section p,h1{
+    color:black; 
+}
+.box0 button{
+    position: absolute;
+    margin: 86px 32px;
+    width: 110px;
+    height: 41px;
+    border: none;
+    background-color:blue;
+    font-weight: 600;
+}
+.boxs{
+    width: 25% ;
+    height: 354px;  ;
+    /* border:1.5px solid black ; */
+    padding: 20px 0px 15px;
+    background-color: white;
+    /* background-repeat: no-repeat; */
+}
+.box-img{
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-content{
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+.box-content p{
+    text-align: center;
+}
+.section-2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 4px;
+}
+.boxy{
+    width: 33%;
+    height: 232px;
+    /* border:1.5px solid black ; */
+    padding: 20px 0px 15px;
+    /* background-size: contain; */
+    /* background-repeat: no-repeat; */
+    background-image: url("section-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container2{
+    background-color: #1a1a3d;
+    width: 100%;
+    height: 350px;
+    position: relative;
+    /* margin-top: 73%; */
+}
+.second-last{
+    display: flex;
+    /* width:100%; */
+    border: solid white 2px;
+    height: 70%;
+    justify-content: space-evenly;
+}
+.block{
+    margin-top: 20px;
+    width:33%;
+    
+}
